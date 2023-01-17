@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+}
+
+header{
+  margin: 20px;
+  background-color: gray;
+  padding: 25px;
+  padding-left: 100px;
+}
+
+header li{
+  list-style-type: none;
+  display: inline-block;
+}
+
+header a{
+  text-decoration: none;
+  color: blanchedalmond;
+  margin-right: 30px;
+}
+
+header a:hover{
+  background-color: blanchedalmond;
+  color: gray;
+  padding: 10px;
+}
+
+.grid-cont img{
+  margin-left: 20px;
+  margin-bottom: 20px;
+  width: 420px;
+  height: 400px;
+}
+
+@media (max-width:400px) {
+  header li{
+    display: block;
+    margin-bottom: 15px;
+  }
+  .grid-cont img{
+    width: 150px;
+    height: 130px;
+  }
+}
+
+@media (min-width:401px) and (max-width:1030px) {
+  header li{
+    margin-bottom: 15px;
+  }
+  .grid-cont img{
+    width: 220px;
+    height: 200px;
+  }
+}
+
